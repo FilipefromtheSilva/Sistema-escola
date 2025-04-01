@@ -1,0 +1,20 @@
+create database escola;
+
+create table turma (
+nome_turma varchar(40),
+turma_id int AUTO_INCREMENT PRIMARY KEY
+);
+
+CREATE TABLE curso(
+nome varchar(40),
+curso_id int AUTO_INCREMENT PRIMARY KEY    
+);
+
+CREATE TABLE Aluno(
+nome varchar(40),
+nota int,
+curso_id int,    
+turma_id int,
+FOREIGN KEY (curso_id) REFERENCES curso(curso_id),
+FOREIGN KEY (turma_id) REFERENCES turma(turma_id)    
+);

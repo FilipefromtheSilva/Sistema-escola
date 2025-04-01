@@ -1,0 +1,46 @@
+<html>
+
+<head>
+	<title> </title>
+</head>
+
+<body style font-family=cambria>
+	<form action="cadastrar_aluno.php" method="post">
+		<fieldset>
+			<table>
+				<legend> Cadastro de Alunos
+					<table>
+						<tr>
+							<td><label>Nome</label> </td>
+							<td><input type="text" name="nome" required> *</td>
+						</tr>
+						<tr>
+							<td><label>Turma *<label></td>
+							<td><select name="turma_id" required>
+									<option value=""> </option>
+									<option value="1">IFO-01</option>
+									<option value="2">ADS-01</option>
+									<option value="3">RED-01</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+						</tr>
+						<tr>
+							<td><label>Curso *<label></td>
+							<td><select name="curso_id" required>
+									<option value=""> </option>
+									<option value="2">Desenvolvimento de Sistemas</option>
+									<option value="1">Informática</option>
+									<option value="3">Redes de Computadores</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td><input type="submit" value="Cadastrar"></td>
+				</legend>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>

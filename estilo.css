@@ -1,0 +1,93 @@
+#titulo {
+
+    padding: 5px;
+    position: absolute;
+    width: 60%;
+    height: 15%;
+    left: 20%;
+    top: 3%;
+    color: white;
+    font-family: courier new;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black 2px;
+}
+
+#menu {
+    padding: 5px;
+    float: left;
+    position: absolute;
+    width: 19%;
+    height: 65%;
+    background-color: #B0E0E6;
+    font-family: cambria;
+    left: 2%;
+    top: 25%;
+    border: solid 2px;
+}
+
+#conteudo {
+    position: absolute;
+    width: 62%;
+    height: 73%;
+    background-color: #B0E0E6;
+    font-family: cambria;
+    left: 32%;
+    top: 21%;
+    border: solid 2px;
+}
+
+a:hover {
+    color: orange;
+}
+
+body {
+    background-color: aquamarine;
+    align-items: center;
+    position: center;
+}
+
+#fundo {
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    height: 98%;
+    position: center;
+    align-items: center;
+    background-color: azure;
+    border-radius: 5px;
+    border: double black 5px;
+}
+
+#respo {
+    display: flex;
+    position: center;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+#posi {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    color: black;
+    background-color: bisque;
+
+}
+
+#deleta {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    color: black;
+    background-color: bisque;
+}
